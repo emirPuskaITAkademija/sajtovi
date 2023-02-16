@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Naslov web sajta</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Emir Puška">
+	</head>
+	<body style="background-color: aliceblue;">
+	  <!-- Ovo je komentar -->
+	  <h1 style="background-color: antiquewhite; text-align: center;">Ovo je naslov mog sajta</h1>
+	  <p style="background-color: rgba(255, 100, 67, 0.1);">Danas je <b>ČETVRTAK</b></p>
+	  <p>Ovo je html <sup>na žalost</sup></p>
+	  <p>Ovo je skoro pa kraj <sub>na radost</sub></p>
+	  <p>x<sup>2</sup>+1=32</p>
+	  <p>x<sub>1</sub>-x<sub>2</sub></p>
+	  <p style="border: #47ff47 3px; border-style: dashed;">Nije jos gotovo <del>išta</del> još ništa</p>
+	  <br>
+	  <hr>
+	  <a href="https://translate.google.com/;)">GOOGLE prevedi me</a>
+	  <p style="border: 3px solid rgb(230,90,100);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<img src="../slike/Java.jpeg" alt="Slika nije učitana" width="400px">
+		<img src="/../images/JS.png" alt="JS slike nema" width="300px" height="150px"><br>
+		<p>Ovo bi trebao biti<a href="https://www.google.ba"> LINK</a> koji će biti CLICKABLE
+
+		<p title="I'm so so sorry" style="font-family: fantasy;">Please translate this text</p>
+		<p id="vremenski" style="color:orange;font-size: 30px; text-align: center;">Ja takođe zauzimam prostor</p>
+		<p style="color:darkturquoise;font-weight: bolder;">Ja            sam drugi paragraf</p>
+		<button onclick="trenutnoVrijeme()">Prikazi vrijeme</button>
+
+		<script>
+			function trenutnoVrijeme(){
+				var trenutnoVrijeme = new Date();
+				//alert("Trenutno vrijeme " + trenutnoVrijeme);
+				var vremenskiParagraf = document.getElementById("vremenski");
+				vremenskiParagraf.innerHTML=trenutnoVrijeme;
+			}
+		</script>
+	</body>
+</html>
