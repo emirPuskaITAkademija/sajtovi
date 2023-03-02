@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h2>Demonstracija upotrebe forme</h2>
+    <form action="index.html" method="get">
+        <label for="usernameInput">Korisničko ime</label>
+        <input id="usernameInput" type="text"name="usernameVar" required/>
+        <label for="passwordInput">Lozinka</label>
+        <input id="passwordInput" type="password" name="passwordVar" required/>
+        <input type="submit"/>
+    </form>
+    <form>
+        <label for="birthdayInput">Birthday</label>
+        <input id="birthdayInput" type="date"/>
+        <label for="favouriteColorInput">Favourite color</label>
+        <input id="favouriteColorInput" type="color"/>
+        <label for="avatarImage">Avatar slika</label>
+        <input id="avatarImage" type="file"/>
+        <label for="agreementInput">Da li se slažete ?</label>
+        <input id="agreementInput" type="checkbox">
+    </form>
+</body>
+</html>

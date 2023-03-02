@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Malo kompleksnija forma</h1>
+    <form action="index.html" method="get">
+      <div>
+        <label for="nameInput">Ime:</label>
+        <input
+          placeholder="ovdje ide ime tekstualno..."
+          id="nameInput"
+          type="text"
+          name="ime"
+        />
+      </div>
+      <!-- Radio button u html -->
+      <label for="genderOption">Odabir spola</label>
+      <div id="genderOption">
+        <input
+          placeholder="Ženski unos..."
+          type="radio"
+          name="genderInput"
+          value="Female"
+          checked
+        />
+        Female
+        <br />
+        <input
+          placeholder="Muški unos.."
+          type="radio"
+          name="genderInput"
+          value="Male"
+        />
+        Male
+      </div>
+
+      <!--Ovdje ide JComboBox...select -->
+      <div>
+        <label for="selectPet">Odaberi kućnog ljubimca:</label>
+        <select id="selectPet" name="favouritePet">
+          <option value="Dog">Pas koji laje</option>
+          <option value="Cat">Mačka koja mjauče</option>
+          <option value="Hamster">Hrčak koji ne ujeda</option>
+          <option value="Bird">Ptica trkačica</option>
+          <option value="Pig">Pepa prase</option>
+          <option value="Rabbit">Zeko pije mlijeko</option>
+        </select>
+      </div>
+
+      <!--Demonstracija upotrebe JCheckBox...check box-->
+      <div>
+        <label for="bananaInput">Da li volite jesti banane ?</label>
+        <input type="checkbox" id="bananaInput" name="bananaInput" />
+        <br />
+        <label for="appleInput">Da li volite jesti jabuke ?</label>
+        <input type="checkbox" id="appleInput" name="appleInput" />
+        <br />
+        <label for="pearInput">Da li volite jesti kruške ?</label>
+        <input type="checkbox" id="pearInput" name="pearInput" />
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+  </body>
+</html>

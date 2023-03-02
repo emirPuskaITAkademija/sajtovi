@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../index.html">
+        <div>
+            <label for="name">First Name:</label>
+            <input placeholder="John" id="name" required type="text" name="firstNameVar"/>
+            <label for="surname">Last Name:</label>
+            <input placeholder="Smith" id="surname" required type="text" name="lastNameVar"/>    
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input id="male" type="radio" value="Male" name="gender"/>
+            <label for="female">Female</label>
+            <input id="female" type="radio" value="Female" name="gender" checked/>
+            <label for="other">Other</label>
+            <input id="other" type="radio" value="Other" name="gender"/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" placeholder="your email" type="email" name="emailVar" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="passwordVar" minlength="5" maxlength="10" placeholder="your password" required />
+        </div>
+        <div>
+            <label>Birthday:</label>
+            <select  id="month" name="monthVar">
+                <option>Month</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+            <select  id="day" name="dayVar">
+                <option>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select  id="year" name="yearVar">
+                <option>Year</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="12">2000</option>
+                <option value="12">2001</option>
+                <option value="12">2002</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" id="terms" name="termsVar" value="AGREE"/>
+        </div>
+        <input type="submit" value="Pošalji">
+    </form>
+</body>
+</html>
