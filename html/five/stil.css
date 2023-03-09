@@ -1,0 +1,17 @@
+h1, h2, p{
+    text-align: center;
+    color: tomato;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+a{
+    background-color: yellow;
+}

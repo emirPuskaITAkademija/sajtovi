@@ -1,0 +1,18 @@
+
+h1{
+    background-color: white;
+    /* r 0-255  g 0-255 b 0-255*/
+    border: 2px solid rgb(255, 99, 71);
+    color: dodgerblue;
+    text-align: center;
+}
+p{
+    background-color: #ff6347;
+    opacity: 0.3;
+}
+
+div{
+    margin-top: 20px;
+    background-color: hsla(9, 100%, 64%, 0.4);
+    border: 1px solid black;
+}

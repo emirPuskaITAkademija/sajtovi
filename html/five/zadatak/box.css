@@ -1,0 +1,27 @@
+body{
+   /* background-image: url("../../../slike/Java.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    */
+    background-color: tomato;
+    background-size: contain;
+    /* background-image, background-repeat, background-position, background-attachment */
+    background: url("../../../slike/Java.jpeg") no-repeat right top fixed;
+    margin: 70px;
+}
+p{
+    background-color: tomato;
+    border: 2px;
+    border-color: black;
+    border-top-style: dotted;
+    padding: 70px;
+    margin: 20px;
+    opacity: 0.9;
+    color: white;
+}
+
+div{
+    background-color: tomato;
+    margin: 60px;
+}
