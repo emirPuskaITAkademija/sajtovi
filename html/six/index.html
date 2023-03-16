@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .izbornik {
+        float: left;
+        width: 20%;
+        text-align: center;
+      }
+      .izbornik a {
+        background-color: tomato;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        color: white;
+      }
+
+      .izbornik li {
+        background-color: tomato;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        color: white;
+      }
+
+      .izbornik li::hover {
+        background-color: gray;
+      }
+
+      .izbornik li {
+        list-style-type: none;
+      }
+
+      .glavna {
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+        text-align: justify;
+      }
+
+      .desno {
+        background-color: tomato;
+        float: right;
+        width: 20%;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .naslov {
+        background-color: gray;
+        text-align: center;
+        padding: 15px;
+        color: white;
+      }
+
+      .footer {
+        background-color: gray;
+        text-align: center;
+        margin-top: 7px;
+        padding: 10px;
+        color: whitesmoke;
+      }
+
+      @media only screen and (max-width: 550px) {
+        .izbornik,
+        .glavna,
+        .desno {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div style="overflow: auto">
+      <!-- DIV 1-->
+      <div class="naslov">
+        <h1>Najbolja usluga na svijetu</h1>
+      </div>
+      <!-- DIV 2-->
+      <div class="izbornik">
+        <ul>
+          <li>Posedna opcija</li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+          <li><a href="#">Opcija 1</a></li>
+        </ul>
+      </div>
+      <!-- DIV 3-->
+      <div class="glavna">
+        <h2>Lorep Ipsum</h2>
+        <p>
+          Mi smo najbolji u pružanju svoje usluge. Nemamo neke naročite
+          argumente zašto je to tako. Vjerujte nam na riječ jer koristimo mnogo
+          tomato boje. Mi smo najbolji u pružanju svoje usluge. Nemamo neke
+          naročite argumente zašto je to tako. Vjerujte nam na riječ jer
+          koristimo mnogo tomato boje. Mi smo najbolji u pružanju svoje usluge.
+          Nemamo neke naročite argumente zašto je to tako. Vjerujte nam na riječ
+          jer koristimo mnogo tomato boje.
+        </p>
+      </div>
+      <!-- DIV 4 -->
+      <div class="desno">
+        <h2>O nama</h2>
+        <p>Lorep ipsdmksc fnksfns snds</p>
+        <h2>O nama</h2>
+        <p>Lorep ipsdmksc fnksfns snds</p>
+        <h2>O nama</h2>
+        <p>Lorep ipsdmksc fnksfns snds</p>
+        <h2>O nama</h2>
+        <p>Lorep ipsdmksc fnksfns snds</p>
+      </div>
+    </div>
+    <!-- DIV 5 -->
+    <div class="footer">
+      <p>Autorska prava itd itd o korištenju muzike. Kontaktirajte AMUS.</p>
+    </div>
+  </body>
+</html>

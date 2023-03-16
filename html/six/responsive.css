@@ -1,0 +1,11 @@
+.header{
+    background-color: darkblue;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.menu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
